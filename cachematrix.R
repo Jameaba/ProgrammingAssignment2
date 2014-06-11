@@ -30,7 +30,7 @@ return (v)
 }
 
 data <- x$get ( )
-v <- solve(x)
+v <- solve(x) 
 x$setinverse (v)
 v
         ## Return a matrix that is the inverse of 'x'
